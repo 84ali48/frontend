@@ -1,0 +1,130 @@
+@media (max-width: 1400px) {
+    
+}
+@media (max-width: 1200px) {
+    .about__welcome{
+        font-size: 4rem;
+    }
+    .about__content-subititle{
+        font-size: 2rem;
+        max-width: 90%;
+    }
+    .about__content-caption{
+        max-width: 90%;
+    }
+    .about-item__title{
+        font-size: 2.2rem;
+    }
+    
+}
+@media (max-width: 992px) {
+    .header-menue__link{
+        padding: 0.5rem;
+    }
+    .header-logo{
+        font-size: 2.5rem;
+    }
+    .nav{
+        padding: 2rem;
+    }
+    .chooseus__content-main{
+        height: auto;
+    }
+    .request-wrapper{
+        flex-direction: column;
+    }
+    .request-content{
+        padding: 0;
+    }
+    .chooseus__items{
+        height: 50rem;
+    }
+}
+@media (max-width: 768px) {
+    .top-header{
+        display: none;
+    }
+    .header-menue{
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+            right: 0;
+            margin: 7rem auto;
+            height: 20rem;
+            background-color: #fff;
+            display: none;
+        }
+        .about__welcome{
+            margin: 1rem 0;
+        }
+        .service__title{
+            font-size: 2.5rem;
+        }
+        .home__title{
+            font-size: 5rem;
+        }
+        .home{
+            height: 60rem;
+        }
+        .about-wrapper{
+            flex-direction: column;
+        }
+        .about{
+            background: linear-gradient(180deg, rgba(246,246,246,1) 50%, rgba(243,82,90,1) 50%);
+        }
+        .about__content{
+            margin-bottom: 3rem;
+        }
+        .chooseus__items{
+            height: 55rem;
+        }
+    }
+@media (max-width: 576px) {
+        .home__title{
+            font-size: 4rem;
+        }
+        .home__links-wrapper{
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .home__link{
+            width: 80vw;
+        }
+        .about-item{
+            flex-direction: column;
+            text-align: center;
+        }
+        .about-items{
+            gap: 0;
+            padding: 0;
+        }
+        .teammember-item__title {
+            font-size: 2rem;
+        }
+        .teammember-item__content{
+            position: unset;
+            width: 100%;
+            clip-path: none;
+            padding: 1rem;
+            height: auto;
+        }
+    }
+    .request__title{
+        font-size: 4rem;
+    }
+@media (max-width: 470px) {
+    .home__title{
+        font-size: 3rem;
+    }
+    .request-form__input, .reqest-form__btn{
+        flex-basis: 100%;
+    }
+    .request__title{
+        font-size: 3rem;
+    }
+    .update-form{
+        width: 90%;
+        justify-content: center;
+    }
+}
