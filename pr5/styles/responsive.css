@@ -1,0 +1,78 @@
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+    .whoami-item{
+        padding: 4rem 2rem;
+    }
+    .whoami-item--no-border{
+        border-width: 0.01rem;
+    }
+}
+@media (max-width: 992px) {
+    .header{
+        background-position: right;
+    }
+    .header-nav-text{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .header-socails{
+        justify-content: center;
+    }
+    .header-content{
+        align-items: center;
+    }
+    .haeder-menue__item-link{
+        padding: 1rem;
+    }
+    .whoami-item{
+        border: none;
+        padding: 2rem 0;
+        min-height: auto;
+        border-bottom: 1px solid #dee2e6;
+    }
+    .whoami-item--no-border{
+        border-bottom-width: 0;
+    }
+    .price-item--exclusive{
+        transform: none;
+    }
+    .news-item{
+        flex-direction: column;
+    }
+    .send-message-input{
+        max-width: none;
+    }
+    .get-in-touch-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .get-in-touch-list__item {
+        width: 50%;
+    }
+@media (max-width: 576px) {
+    .header-subtitle{
+        font-size: 2.5rem;
+    }
+    .header-title{
+        font-size: 6rem;
+    }
+    .header-caption{
+        font-size: 1.2rem;
+    }
+    .haeder-menue__item-link{
+        display: none;
+    }
+    .nav-btn-wrapper{
+        display: block;
+    }
+    .nav{
+        height: auto;
+    }
+
+    .header-nav-text{
+        display: block;
+    }
+}
